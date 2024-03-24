@@ -3,8 +3,8 @@ import React from "react";
 function Cards(props) {
   const { img, title, imgReact,imgHtml } = props;
   return (
-  <div className="flex justify-evenly w-full ">
-      <div className="pt-6">
+  <div className="flex justify-center w-full ">
+      <div className="pt-6 ">
         <img
          className={` border-l-8 border-t-8 hover:border-r-8 hover:border-b-8 hover:border-l-0 hover:border rounded-2xl border border-blue-600 bg-transparent
               ${title=="Tailwind" &&  "py-7"} p-3 ${
