@@ -16,7 +16,7 @@ const contact = () => {
         <div className="w-10/12 md:w-3/6  mx-auto">
           <form className="grid gap-6 lg:grid-cols-1">
             <div>
-              <label htmlFor="name" class="block mb-2 font-medium ">
+              <label htmlFor="name" class="block mb-2 ms-2 font-medium ">
                 Enter name :
               </label>
               <input

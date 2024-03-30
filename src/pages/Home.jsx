@@ -26,7 +26,7 @@ function Home() {
       >
         <div className="w-3/4 md:2-2/4 m-auto">
           <div className=" space-y-8">
-            <p className="text-3xl md:text-4xl font-bold md:tracking-wider">Muhammad Bilal</p>
+            <p className="text-3xl pt-4 md:text-4xl font-bold md:tracking-wider">Muhammad Bilal</p>
             <p className=" font-semibold text-3xl xl:tracking-wide">
               ReatJs Developer & Web_Designer
             </p>
