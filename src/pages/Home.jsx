@@ -105,7 +105,7 @@ function Home() {
             <button
               onClick={downloadPDF}
               type="pdf"
-              class="mt-6 text-2xl flex gap-3 justify-center align-middle items-center hover:text-[#F1E757] border border-blue-700 hover:bg-[#050A30] focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg py-2 px-4 text-center me-2 mb-2 "
+              class="mt-6 text-2xl flex gap-3 justify-center align-middle items-center hover:bg-gray-50 border border-blue-700 hover:border-x-8 hover:text-[#050A30] hover:font-bold  rounded-lg py-2 px-4 text-center me-2 mb-2 "
             >
               Resume
               <PiDownloadSimpleBold />

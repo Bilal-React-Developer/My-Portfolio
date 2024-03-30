@@ -3,13 +3,13 @@ import ProgressBar from "./ProgressBar";
 
 const Skills = () => {
   return (
-    <div className=" bg_img w-full h-full text-slate-200">
+    <div className=" w-full h-full text-slate-200">
       <div className="flex-col flex space-y-6 w-10/12 m-auto justify-center">
       <span className="md:text-5xl md:mt-6 text-4xl font-semibold flex justify-center tracking-wider md:pt-8">
             Skills
           </span>
           <span>
-          <ul className="flex justify-between ">
+          <ul className=" px-10 md:px-0 py-4 md:flex justify-between ">
           <li className="w-full">
             <ProgressBar title="HTML5" percentage={100} />
             <ProgressBar title="CSS" percentage={90} />

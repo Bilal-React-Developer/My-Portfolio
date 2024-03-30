@@ -8,7 +8,7 @@ function ProjectCard(props) {
   return (
     // <div className=''>
     <div className="flex  ">
-      <div className=" flex-col justify-evenly mx-auto border-2 border-[#2563EB] rounded-3xl hover:text-[#24075D] shadow-stone-300 shadow-md  md:border-4  hover:bg-blue-100">
+      <div className=" flex-col justify-evenly mx-auto border-2 border-[#2563EB] rounded-3xl hover:text-[#24075D] shadow-stone-200 shadow-lg  md:border-4  hover:bg-blue-100 sm:w-8/12 md:w-full">
         <div className=" flex justify-center py-4 text-3xl ">
           <Link
             to="https://github.com/Bilal-React-Developer"
@@ -30,8 +30,8 @@ function ProjectCard(props) {
         <span className="flex pt-1 pb-4 justify-center font-bold text-2xl">
           {title}
         </span>
-        <div className="flex mx-auto w-11/12 pb-2 justify-center md:text-center text:xs sm:text-sm ">
-          <span className=" ">{desc}</span>
+        <div className="flex mx-auto w-8/12 md:w-11/12 pb-2 justify-center md:text-center text:xs sm:text-sm ">
+          <p className="text-justify ">{desc}</p>
         </div>
       </div>
     </div>
