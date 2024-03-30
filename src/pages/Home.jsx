@@ -8,7 +8,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { SiIndeed } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
 import { FaWhatsappSquare } from "react-icons/fa";
-import profilePic from "../components/assets/my_pic1.jpg"
+import my_pic1 from "../components/assets/my_pic1.jpg"
 
 function Home() {
     const downloadPDF = () => {
@@ -106,7 +106,7 @@ function Home() {
       </div>
       <div className="md:w-2/5 w-full flex justify-center items-center">
         <img
-          src={profilePic}
+          src={my_pic1}
           className="h-[50vh] sm:w-2/5 w-3/5 md:w-3/5 border rounded-xl"
           alt="Bilal"
         />
