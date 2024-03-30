@@ -41,11 +41,13 @@ function ProjectCard(props) {
               />
             </Link>
           ) : (
+            <Link to="#" target="blank">
             <img
               className="h-[30vh] md:h-[24vh] rounded-xl border border-[#24075D] border-l-8 border-t-8 hover:border-r-8 hover:border-b-8 hover:border-l-0 hover:border-t-0"
               src={image}
               alt="Project_1"
             />
+            </Link>
           )}
         </div>
         <span className="flex pt-1 pb-4 justify-center font-bold text-2xl">
