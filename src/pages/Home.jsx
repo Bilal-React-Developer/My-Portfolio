@@ -21,7 +21,7 @@ function Home() {
       document.body.removeChild(link);
   };
   return (
-    <div className=" bg-cover bg-center bg-no-repeat bg-[url('src/components/assets/bg.jpg')] text-slate-200 flex-col-reverse flex md:flex-row text-center md:py-14 py-5 justify-items-center justify-between w-full md:h-[100vh] ">
+    <div className={` bg-cover bg-center bg-no-repeat bg-[url('src/components/assets/bg.jpg')] text-slate-200 flex-col-reverse flex md:flex-row text-center md:py-14 py-5 justify-items-center justify-between w-full md:h-[100vh] `}>
       <div className="w-3/4 md:2-2/4 m-auto">
         <div className=" space-y-8">
           <p className="text-3xl md:text-4xl font-bold">Muhammad Bilal</p>
