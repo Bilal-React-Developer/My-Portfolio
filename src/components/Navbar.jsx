@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Link } from 'react-router-dom';
-import Home from "../pages/Home";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,8 +9,8 @@ function Navbar() {
   };
 
   return (
-    <nav className="bg-[#3533CD]">
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between py-2">
+    <nav className="bg-[#3533CD] ">
+      <div className="max-w-screen-xl flex  flex-wrap items-center justify-between py-2">
           <img
             src="src/components/assets/Golden_Name_Logo.png"
             className="h-16 ms-[8%] "
@@ -40,7 +39,7 @@ function Navbar() {
           </svg>
         </button>
         <div
-          className={`w-full ${isOpen ? "block" : "hidden"} md:block mx-[11%] md:w-auto`}
+          className={`w-full ${isOpen ? "block" : "hidden"} md:block mx-[10%] md:w-auto`}
           id="navbar-default"
         >
           <ul className="text-xl flex flex-col p-2 md:p-0 mt-4 border  rounded-lg  md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-[#3533CD]">
@@ -50,10 +49,11 @@ function Navbar() {
               </Link>
             </li>
             <li>
-              <Link to="/Introduction">
+              <Link to="/About">
                 <span className="block py-2 px-3 text-[#F1E757] rounded hover:bg-blue-200 hover:text-gray-900 md:border-0 md:text-[#F1E757] md:p-0 ">About</span>
               </Link>
             </li>
+            
             <li>
               <Link to="/projects">
                 <span className="block py-2 px-3 text-[#F1E757] hover:text-gray-900 rounded hover:bg-blue-200 md:bg-transparent md:border-0 md:p-0 ">Projects</span>

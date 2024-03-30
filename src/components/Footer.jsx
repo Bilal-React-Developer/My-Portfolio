@@ -29,7 +29,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="flex justify-center md: text-[#F1E757] py-3"
             >
-              <span className="flex items-center">
+              <span className="flex items-center hover:text-white">
                 <SiIndeed className="me-1" />
                 Indeed
               </span>
@@ -42,7 +42,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="flex justify-center md: text-[#F1E757] py-3"
             >
-              <span className="flex items-center">
+              <span className="flex items-center hover:text-white">
                 <FaGithub className="me-1" />
                 GitHub
               </span>
@@ -55,7 +55,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="flex justify-center md: text-[#F1E757] py-3"
             >
-              <span className="flex items-center">
+              <span className="flex items-center hover:text-white">
                 <MdEmail className="me-1" />
                 Gmail
               </span>
