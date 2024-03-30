@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom';
 
 import { FaGithub } from "react-icons/fa";
 
-function ProjectCard({ icon, image, title, desc }) {
+function ProjectCard(props) {
+  const { icon, image, title, desc } = props;
   return (
     // <div className=''>
     <div className="flex  ">

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from 'react-router-dom';
-
+import logo from "../components/assets/Golden_Name_Logo.png"
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -12,7 +12,7 @@ function Navbar() {
     <nav className="bg-[#3533CD] ">
       <div className="max-w-screen-xl flex  flex-wrap items-center justify-between py-2">
           <img
-            src="src/components/assets/Golden_Name_Logo.png"
+            src={logo}
             className="h-16 ms-[8%] "
             alt="Bilal" />
         <button
