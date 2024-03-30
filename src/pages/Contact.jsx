@@ -9,7 +9,7 @@ const contact = () => {
           bg-cover bg-center bg-no-repeat bg-[url('src/components/assets/bg.jpg')]"
       >
         <div className="flex justify-center">
-          <span className="text-6xl md:my-6 font-semibold">Contact</span>
+          <span className="text-6xl md:my-6 font-semibold tracking-wider">Contact</span>
         </div>
         <div className="w-10/12 md:w-3/6  mx-auto">
           <form className="">

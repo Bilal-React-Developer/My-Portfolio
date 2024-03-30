@@ -10,7 +10,7 @@ function projects() {
   return (
     <div className=" bg-cover bg-center bg-no-repeat bg-[url('src/components/assets/bg.jpg')] w-full h-full text-slate-200 ">
       <div className="flex-col flex space-y-6 w-10/12 m-auto justify-center">
-        <span className="md:text-5xl md:mt-6 text-4xl font-semibold flex justify-center">
+        <span className="md:text-5xl md:mt-6 text-4xl font-semibold flex justify-center tracking-wider">
            Projects
         </span>
         <span className=" text-justify mx-auto md:text-lg md:w-4/5">

@@ -21,15 +21,14 @@ function Home() {
     document.body.removeChild(link);
   };
   return (
-    <div className="bg_img">
       <div
-        className= "text-slate-200 flex-col-reverse flex md:flex-row text-center md:py-14 py-5 justify-items-center justify-between w-full md:h-[100vh] "
+        className= "bg_img text-slate-200 flex-col-reverse flex md:flex-row text-center md:py-14 py-5 justify-items-center justify-between w-full md:h-[100vh] "
       >
         <div className="w-3/4 md:2-2/4 m-auto">
           <div className=" space-y-8">
-            <p className="text-3xl md:text-4xl font-bold">Muhammad Bilal</p>
-            <p className=" font-semibold text-2xl">
-              ReatJs Developer & Web Designer
+            <p className="text-3xl md:text-4xl font-bold md:tracking-wider">Muhammad Bilal</p>
+            <p className=" font-semibold text-3xl xl:tracking-wide">
+              ReatJs Developer & Web_Designer
             </p>
             <div className="md:mt-10 text-2xl">
               <ul className="flex justify-center">
@@ -121,7 +120,6 @@ function Home() {
           />
         </div>
       </div>
-    </div>
   );
 }
 
