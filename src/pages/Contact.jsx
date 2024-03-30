@@ -6,7 +6,7 @@ const contact = () => {
     <div>
       <div
         className="w-full  space-y-6 text-slate-200 
-          bg-cover bg-center bg-no-repeat bg-[url('src/components/assets/bg.jpg')]"
+          bg-cover bg_img"
       >
         <div className="flex justify-center">
           <span className="text-6xl md:my-6 font-semibold tracking-wider">
