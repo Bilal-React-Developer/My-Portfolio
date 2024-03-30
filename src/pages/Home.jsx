@@ -12,7 +12,7 @@ import my_pic1 from "../components/assets/my_pic1.jpg";
 
 function Home() {
   const downloadPDF = () => {
-    const pdfPath = "public/Muhammad-Bilal-CV1.pdf";
+    const pdfPath = "/Muhammad-Bilal-CV1.pdf";
     const link = document.createElement("a");
     link.href = pdfPath;
     link.setAttribute("download", "Muhammad-Bilal-CV1.pdf");
