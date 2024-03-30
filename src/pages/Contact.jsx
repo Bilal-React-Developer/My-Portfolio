@@ -29,7 +29,7 @@ const contact = () => {
             </div>
 
             <div class="">
-              <label for="email" class="block mb-2 font-medium  ">
+              <label for="email" class="block mb-2 ms-2 font-medium  ">
                 Email :
               </label>
               <input
@@ -40,7 +40,7 @@ const contact = () => {
               />
             </div>
             <div class="">
-              <label for="about" class="block mb-2  font-medium ">
+              <label for="about" class="block mb-2 ms-2 font-medium ">
                 Your Message :
               </label>
               <div class="mt-1">

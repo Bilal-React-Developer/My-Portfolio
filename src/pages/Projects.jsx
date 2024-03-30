@@ -4,6 +4,7 @@ import ProjectCard from "../components/ProjectCard";
 import { FaGithub } from "react-icons/fa";
 import Developer4_img from "../components/assets/Developer4_img.jpg";
 import todo1 from "../components/assets/todo1.png";
+import Dashboard from "../components/assets/Dashboard.png"
 
 
 function projects() {
@@ -27,16 +28,17 @@ function projects() {
             desc="Developed a dynamic React-based To-Do application featuring seamless adding, deleting, and editing functionalities, enhancing user productivity and experience"
           />
           <ProjectCard
-            image={Developer4_img}
-            title="Project_2"
+          // https://web-dashboard-orcin.vercel.app/
+            image={Dashboard}
+            title="Web-Dashboard"
             icon={<FaGithub />}
-            desc="Lorem ipsum dolor sit amet consectetur adipisicing elitLibero placeat, recusandae nobis officia amet possimus a doloremque exercitationem?"
+            desc="Crafted with precision, this sleek dashboard seamlessly integrates HTML, CSS, Bootstrap, and JavaScript, offering an intuitive and responsive user experience."
           />
           <ProjectCard
             image={Developer4_img}
-            title="Project_3"
+            title="Project 3"
             icon={<FaGithub />}
-            desc="Lorem ipsum dolor sit amet consectetur adipisicing elitLibero placeat, recusandae nobis officia amet possimus a doloremque exercitationem?"
+            desc="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem molestiae asperiores praesentium distinctio, atque culpa nesciunt eum! Doloribus, molestiae deserunt."
           />
       </div>
     </div>
