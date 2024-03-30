@@ -25,7 +25,7 @@ function ProjectCard(props) {
         <div className=" flex justify-center">
 
           {image === todo1 ? (
-            <Link to="https://todo-app-ten-steel.vercel.app/">
+            <Link to="https://todo-app-ten-steel.vercel.app/" target="blank">
               <img
                 className="h-[30vh] md:h-[24vh] rounded-xl border border-[#24075D] border-l-8 border-t-8 hover:border-r-8 hover:border-b-8 hover:border-l-0 hover:border-t-0"
                 src={image}
@@ -33,7 +33,7 @@ function ProjectCard(props) {
               />
             </Link>
           ) : image === Dashboard ? (
-            <Link to="https://web-dashboard-orcin.vercel.app/">
+            <Link to="https://web-dashboard-orcin.vercel.app/" target="blank">
               <img
                 className="h-[30vh] md:h-[24vh] rounded-xl border border-[#24075D] border-l-8 border-t-8 hover:border-r-8 hover:border-b-8 hover:border-l-0 hover:border-t-0"
                 src={image}
