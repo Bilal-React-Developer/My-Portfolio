@@ -28,7 +28,7 @@ function Home() {
           <div className=" space-y-8">
             <p className="text-3xl pt-4 md:text-4xl font-bold md:tracking-wider">Muhammad Bilal</p>
             <p className=" font-semibold text-3xl xl:tracking-wide">
-              ReatJs Developer & Web_Designer
+              React.Js Developer & Web_Designer
             </p>
             <div className="md:mt-10 text-2xl">
               <ul className="flex justify-center">
