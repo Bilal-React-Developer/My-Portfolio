@@ -21,12 +21,7 @@ function projects() {
       
       <div className=" flex flex-col md:space-x-2 space-x-0 space-y-3 md:space-y-0 md:flex-row md:justify-evenly py-8 m-auto w-10/12 ">
         
-          <ProjectCard
-            image={todo1}
-            title="Todo_App"
-            icon={<FaGithub />}
-            desc="Developed a dynamic React-based To-Do application featuring seamless adding, deleting, and editing functionalities, enhancing user productivity and experience"
-          />
+          
           <ProjectCard
           // https://web-dashboard-orcin.vercel.app/
             image={Dashboard}
@@ -35,11 +30,17 @@ function projects() {
             desc="Crafted with precision, this sleek dashboard seamlessly integrates HTML, CSS, Bootstrap, and JavaScript, offering an intuitive and responsive user experience."
           />
           <ProjectCard
+            image={todo1}
+            title="Todo_App"
+            icon={<FaGithub />}
+            desc="Developed a dynamic React-based To-Do application featuring seamless adding, deleting, and editing functionalities, enhancing user productivity and experience"
+          />
+          {/* <ProjectCard
             image={Developer4_img}
             title="Project 3"
             icon={<FaGithub />}
             desc="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem molestiae asperiores praesentium distinctio, atque culpa nesciunt eum! Doloribus, molestiae deserunt."
-          />
+          /> */}
       </div>
     </div>
   );
